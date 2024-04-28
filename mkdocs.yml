@@ -1,0 +1,21 @@
+site_name: Mayank Mohindra
+copyright: Mayank Mohindra
+
+theme:
+  name: simple-blog
+  # favicon: assets/favicon.ico
+  logo: assets/logo.svg
+  theme_style: light
+  site_name_style: normal
+  title_style: bold
+  colors:
+    text: black
+    title: black
+    primary: black
+    background: white
+  components:
+    site_name: true
+    title: true
+    menu: true
+    preview: false
+    footer: false
