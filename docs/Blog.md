@@ -18,22 +18,26 @@ Covering a range of topics from programming languages to best practices, this bl
 ---
 
 - Kubernetes
-    - [Secrets](./Pages/Kubernetes/secrets.md)
-    - [Kubeconfig](./Pages/Kubernetes/kubeconfig.md)
-    - [Labels and Selectors](./Pages/Kubernetes/labels%20and%20selectors.md)
-    - [Namespaces](./Pages/Kubernetes/namespace.md)
-    - [Port Forwarding](./Pages/Kubernetes/port%20forwarding.md)
-    - [Debug Pods with kubectl](./Pages/Kubernetes/debug%20pods.md)
-    - [Composite Container Design Patterns](./Pages/Kubernetes/composite%20container%20design%20patterns.md)
-    - [Using custom images with minikube](./Pages/Kubernetes/using%20custom%20images%20with%20minikube.md)
-    - [Delete stuck resources](./Pages/Kubernetes/delete%20stuck%20resources.md)
-    - [Cluster domain lookup](./Pages/Kubernetes/cluster%20domain%20lookup.md)
-    - [List all resources](./Pages/Kubernetes/list%20all%20resources.md)
-    - [Use helm without installation](./Pages/Kubernetes/use%20helm%20without%20installation.md)
-    - [Init containers](./Pages/Kubernetes/init%20containers.md)
-    - [Kustomize with helm](./Pages/Kubernetes/kustomize%20with%20helm.md)
-    - [RBAC Authentication](./Pages/Kubernetes/rbac%20authentication.md)
-    - [Restart Container within Pod](./Pages/Kubernetes/restart%20container%20within%20pod.md)
-    - [Add Minikube Nodes](./Pages/Kubernetes/add%20minikube%20nodes.md)
+    - Basics
+        - [Namespaces](./Pages/Kubernetes/namespace.md)
+        - [Secrets](./Pages/Kubernetes/secrets.md)
+        - [Kubeconfig](./Pages/Kubernetes/kubeconfig.md)
+        - [Labels and Selectors](./Pages/Kubernetes/labels%20and%20selectors.md)
+        - [Use helm without installation](./Pages/Kubernetes/use%20helm%20without%20installation.md)
+        - [Restart Container within Pod](./Pages/Kubernetes/restart%20container%20within%20pod.md)
+    - Intermediate
+        - [Init containers](./Pages/Kubernetes/init%20containers.md)
+        - [Port Forwarding](./Pages/Kubernetes/port%20forwarding.md)
+        - [Debug Pods with kubectl](./Pages/Kubernetes/debug%20pods.md)
+    - Advanced
+        - [Composite Container Design Patterns](./Pages/Kubernetes/composite%20container%20design%20patterns.md)
+        - [Delete stuck resources](./Pages/Kubernetes/delete%20stuck%20resources.md)
+        - [Cluster domain lookup](./Pages/Kubernetes/cluster%20domain%20lookup.md)
+        - [List all resources](./Pages/Kubernetes/list%20all%20resources.md)
+        - [Kustomize with helm](./Pages/Kubernetes/kustomize%20with%20helm.md)
+        - [RBAC Authentication](./Pages/Kubernetes/rbac%20authentication.md)
+    - Minikube
+        - [Using custom images with minikube](./Pages/Kubernetes/using%20custom%20images%20with%20minikube.md)
+        - [Add Minikube Nodes](./Pages/Kubernetes/add%20minikube%20nodes.md)
 
 ---
