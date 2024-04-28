@@ -11,7 +11,7 @@ echo -n "password1234" | base64 -i -
 
 The value retrieved can be added to the secrets config and applied
 
-Follow for [secrets config](/knowledgebase/kubernetes/components/secrets/secrets.yml)
+Follow for [secrets config](./components/secrets/secrets.yml)
 
 ## Reading a secret from kubernetes
 

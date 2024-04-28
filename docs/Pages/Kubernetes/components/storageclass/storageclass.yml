@@ -1,0 +1,9 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: <storage-class-name>
+provisioner: <storage-class-provisioner>
+parameters:
+  type: <type>
+  encrypted: "true"
+  archiveOnDelete: "false"

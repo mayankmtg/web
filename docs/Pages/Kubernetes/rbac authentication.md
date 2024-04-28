@@ -28,7 +28,7 @@ Follow to create [signed certificates](/knowledgebase/openssl/generate_signed_ce
 
 Embed the certificates inside the KUBECONFIG file
 
-Follow to create [KUBECONFIG](/knowledgebase/kubernetes/kubeconfig.md)
+Follow to create [KUBECONFIG](./kubeconfig.md)
 
 ```bash
 export KUEBCONFIG=/absolute/path/to/kubeconfig
@@ -44,7 +44,7 @@ kubect get pods
 Because of the problem mentioned in the above step, we need to create a role, which has permissions to do things
 in the cluster
 
-Follow to create a [role](/knowledgebase/kubernetes/components/rbac/role.yml)
+Follow to create a [role](./components/rbac/role.yml)
 
 ### Create role bindings
 
@@ -52,7 +52,7 @@ Just creating the role is not enough. We need to bind the role to the user we cr
 
 This binds a `subject` to a `roleRef`
 
-Follow to create a [rolebinding](/knowledgebase/kubernetes/components/rbac/rolebinding.yml)
+Follow to create a [rolebinding](./components/rbac/rolebinding.yml)
 
 Once rolebinding is complete, the user will have the required permissions to access the cluster
 
@@ -66,7 +66,7 @@ Service account creation is a combination of `serviceaccount.yml` and correspond
 
 `serviceaccount.yml` contains nothing much but the service account name which needs to be referenced from that pod
 
-Follow to create [serviceaccount](/knowledgebase/kubernetes/components/rbac/serviceaccount.yml) and [pod](/knowledgebase/kubernetes/components/rbac/pod-serviceaccount.yml)
+Follow to create [serviceaccount](./components/rbac/serviceaccount.yml) and [pod](./components/rbac/pod-serviceaccount.yml)
 
 This created pod will have a sercret token within the directory: `/var/run/secrets/kubernetes.io/serviceaccount`
 
@@ -74,7 +74,7 @@ This will have its own `secrets` and `tokens`
 
 Now we need to define roles and bind them to this service account
 
-Follow to create [serviceaccount roles](/knowledgebase/kubernetes/components/rbac/serviceaccount-role.yml) and [serviceaccount bindings](/knowledgebase/kubernetes/components/rbac/serviceaccount-rolebinding.yml)
+Follow to create [serviceaccount roles](./components/rbac/serviceaccount-role.yml) and [serviceaccount bindings](./components/rbac/serviceaccount-rolebinding.yml)
 
 ## Cluster Roles and Rolebindings
 
