@@ -19,6 +19,10 @@ Covering a range of topics from programming languages to best practices, this bl
 
 - Kubernetes
     - [Secrets](./Pages/Kubernetes/secrets.md)
+    - [Kubeconfig](./Pages/Kubernetes/kubeconfig.md)
+    - [Labels and Selectors](./Pages/Kubernetes/labels%20and%20selectors.md)
+    - [Namespaces](./Pages/Kubernetes/namespace.md)
+    - [Port Forwarding](./Pages/Kubernetes/port%20forwarding.md)
     - [Debug Pods with kubectl](./Pages/Kubernetes/debug%20pods.md)
     - [Composite Container Design Patterns](./Pages/Kubernetes/composite%20container%20design%20patterns.md)
     - [Using custom images with minikube](./Pages/Kubernetes/using%20custom%20images%20with%20minikube.md)
@@ -28,5 +32,8 @@ Covering a range of topics from programming languages to best practices, this bl
     - [Use helm without installation](./Pages/Kubernetes/use%20helm%20without%20installation.md)
     - [Init containers](./Pages/Kubernetes/init%20containers.md)
     - [Kustomize with helm](./Pages/Kubernetes/kustomize%20with%20helm.md)
+    - [RBAC Authentication](./Pages/Kubernetes/rbac%20authentication.md)
+    - [Restart Container within Pod](./Pages/Kubernetes/restart%20container%20within%20pod.md)
+    - [Add Minikube Nodes](./Pages/Kubernetes/add%20minikube%20nodes.md)
 
 ---
