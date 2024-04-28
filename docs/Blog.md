@@ -18,6 +18,7 @@ Covering a range of topics from programming languages to best practices, this bl
 ---
 
 - Kubernetes
+    - [Secrets](./Pages/Kubernetes/secrets.md)
     - [Debug Pods with kubectl](./Pages/Kubernetes/debug%20pods.md)
     - [Composite Container Design Patterns](./Pages/Kubernetes/composite%20container%20design%20patterns.md)
     - [Using custom images with minikube](./Pages/Kubernetes/using%20custom%20images%20with%20minikube.md)
@@ -25,5 +26,7 @@ Covering a range of topics from programming languages to best practices, this bl
     - [Cluster domain lookup](./Pages/Kubernetes/cluster%20domain%20lookup.md)
     - [List all resources](./Pages/Kubernetes/list%20all%20resources.md)
     - [Use helm without installation](./Pages/Kubernetes/use%20helm%20without%20installation.md)
+    - [Init containers](./Pages/Kubernetes/init%20containers.md)
+    - [Kustomize with helm](./Pages/Kubernetes/kustomize%20with%20helm.md)
 
 ---
