@@ -22,4 +22,6 @@ Covering a range of topics from programming languages to best practices, this bl
     - [Composite Container Design Patterns](./Pages/Kubernetes/composite%20container%20design%20patterns.md)
     - [Using custom images with minikube](./Pages/Kubernetes/using%20custom%20images%20with%20minikube.md)
     - [Delete stuck resources](./Pages/Kubernetes/delete%20stuck%20resources.md)
+    - [Cluster domain lookup](./Pages/Kubernetes/cluster%20domain%20lookup.md)
+
 ---
