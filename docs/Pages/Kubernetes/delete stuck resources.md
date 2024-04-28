@@ -27,6 +27,6 @@ Important resources that could be remaining could be corresponding PVC/PV.
 
 Delete any resources in this section if there are any remaining and have to go
 
-[Follow for cleanup](/knowledgebase/kubernetes/list_all_namespace_resources.md)
+[Follow for cleanup](./list%20all%20resources.md)
 
 ---
