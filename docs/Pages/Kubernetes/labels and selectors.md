@@ -1,4 +1,5 @@
-# Labels and Selectors
+
+---
 
 `Labels` can be thought of as any key-value pair assigned to kubernetes components
 
@@ -72,3 +73,5 @@ kubectl delete pods -l='type=calculation,method=maths'
 If we create a service, we can use selectors to define which components do we want to connect to
 
 [Example service](./components/service/service_selectors.yml)
+
+---

@@ -44,3 +44,5 @@ Again 2 containers
 
 They share volumes for accessing logs just like sidecar design pattern
 
+---
+
