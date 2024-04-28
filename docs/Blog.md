@@ -24,5 +24,6 @@ Covering a range of topics from programming languages to best practices, this bl
     - [Delete stuck resources](./Pages/Kubernetes/delete%20stuck%20resources.md)
     - [Cluster domain lookup](./Pages/Kubernetes/cluster%20domain%20lookup.md)
     - [List all resources](./Pages/Kubernetes/list%20all%20resources.md)
+    - [Use helm without installation](./Pages/Kubernetes/use%20helm%20without%20installation.md)
 
 ---
