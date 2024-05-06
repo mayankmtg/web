@@ -18,6 +18,7 @@ Covering a range of topics from programming languages to best practices, this bl
 ---
 
 - Kubernetes
+    - [Cheatsheet](./Pages/Kubernetes/cheatsheet.md)
     - Basics
         - [Namespaces](./Pages/Kubernetes/namespace.md)
         - [Secrets](./Pages/Kubernetes/secrets.md)
