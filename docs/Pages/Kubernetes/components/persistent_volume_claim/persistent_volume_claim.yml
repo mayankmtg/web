@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: <claim-name>
+spec:
+  accessModes:
+    - ReadWriteOnce # this should match the binding PV
+  resources:
+    requests:
+      storage: 100Mi
+  storageClassName: <storage-class-name> # this should match the binding PV

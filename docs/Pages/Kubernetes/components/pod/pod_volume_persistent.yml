@@ -1,0 +1,21 @@
+# Pod to use a static persistent volume
+# For this a persistent volume must exist
+# For each persistent volume, 
+# a persistent volume claim must exist
+# Create a pv, pvc before starting this pod
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: <pod-name>
+spec:
+  containers:
+  - name: <container-name>
+    image: <container-image>
+    volumeMounts:
+    - name: vol
+      mountPath: /path/on/container
+  volumes:
+  - name: vol
+    persistentVolumeClaim:
+      claimName: <pvc-name>

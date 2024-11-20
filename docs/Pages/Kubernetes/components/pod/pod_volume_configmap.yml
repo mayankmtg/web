@@ -1,0 +1,19 @@
+# This will mount all files from configmap to container
+apiVersion: v1
+kind: Pod
+metadata:
+  name: <pod-name>
+spec:
+  restartPolicy: Never
+  containers:
+    - name: <container-name>
+      image: <container-image>
+      volumeMounts:
+      - name: <config-volume-name>
+        mountPath: /path/to/mount/in/container
+  volumes:
+    - name: <config-volume-name>
+      configMap:
+        # Provide the name of the ConfigMap containing the files you want
+        # to add to the container
+        name: <configmap-name>
